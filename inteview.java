@@ -15,21 +15,23 @@ public class inteview {
             System.out.println("a = b");
 
         } else if (a < b) {
-            
 
-                System.out.println("a < b");
-
-            
+            System.out.println("a < b");
 
         } else {
             System.out.println("a > b");
         }
+
+        print4Lines(a, b);
+
+        s.close();
+
+    }
+
+    static void print4Lines(int a, int b) {
         System.out.println("Результат прибавления чисел a и b - " + (a + b));
         System.out.println("Результат вычитания чисел а и b - " + (a - b));
         System.out.println("Результат умножения чисел а и b - " + (a * b));
         System.out.println("Результат деления чисел a и b - " + (a / b));
-
-        s.close();
-
     }
 }
