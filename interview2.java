@@ -3,8 +3,7 @@
 
 import java.util.Scanner;
 
-public class interview2 
-{
+public class interview2 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите первую строку ");
@@ -12,19 +11,16 @@ public class interview2
         System.out.println("Введите вторую строку ");
         String b = s.nextLine();
 
-        if(a.equals(b))
-    {
-        System.out.println("Строки идентичны");
-        
-    }
-    else
-    {
-        System.out.println("Строки неидентичны");
-        
-    }
-    
-    s.close();
+        if (a.equals(b)) {
+            System.out.println("Строки идентичны");
+
+        } else {
+            System.out.println("Строки неидентичны");
+
+        }
+
+        s.close();
 
     }
-    
+
 }
